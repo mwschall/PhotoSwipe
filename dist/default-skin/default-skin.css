@@ -35,8 +35,7 @@
           transition: opacity 0.2s;
   -webkit-box-shadow: none;
           box-shadow: none; }
-  .pswp__button:focus,
-  .pswp__button:hover {
+  .pswp__button:focus, .pswp__button:hover {
     opacity: 1; }
   .pswp__button:active {
     outline: none;
@@ -428,6 +427,7 @@ a.pswp__share--download:hover {
   height: 44px;
   width: 100%; }
 
+.pswp__extra,
 .pswp__caption,
 .pswp__top-bar,
 .pswp--has_mouse .pswp__button--arrow--left,
@@ -452,6 +452,7 @@ a.pswp__share--download:hover {
   background-color: rgba(0, 0, 0, 0.3); }
 
 /* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
+.pswp__ui--idle .pswp__extra,
 .pswp__ui--idle .pswp__top-bar {
   opacity: 0; }
 
@@ -463,6 +464,7 @@ a.pswp__share--download:hover {
 	pswp__ui--hidden class is added when controls are hidden
 	e.g. when user taps to toggle visibility of controls
 */
+.pswp__ui--hidden .pswp__extra,
 .pswp__ui--hidden .pswp__top-bar,
 .pswp__ui--hidden .pswp__caption,
 .pswp__ui--hidden .pswp__button--arrow--left,

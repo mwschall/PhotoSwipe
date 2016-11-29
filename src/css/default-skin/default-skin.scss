@@ -497,6 +497,7 @@ a.pswp__share--download {
 	width: 100%;
 }
 
+.pswp__extra,
 .pswp__caption,
 .pswp__top-bar,
 .pswp--has_mouse .pswp__button--arrow--left,
@@ -530,6 +531,7 @@ a.pswp__share--download {
 /* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
 	
 .pswp__ui--idle {
+	.pswp__extra,
 	.pswp__top-bar { 
 		opacity: 0; 
 	}
@@ -545,6 +547,7 @@ a.pswp__share--download {
 	e.g. when user taps to toggle visibility of controls
 */
 .pswp__ui--hidden {
+	.pswp__extra,
 	.pswp__top-bar,
 	.pswp__caption,
 	.pswp__button--arrow--left,
